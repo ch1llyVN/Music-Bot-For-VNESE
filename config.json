@@ -1,6 +1,6 @@
 {
- "TOKEN": "OTMxMTQ3MjEyOTQ2MjkyNzc2.YeAMaw.6iN8D9vet9U1Szkd2ORZgAp_pEw",
- "YOUTUBE_API_KEY": "AIzaSyBP78sOMZTQuwSe5okT6Wc67GG_OqLUiZ8",
+ "TOKEN": "",//ĐIỀN TOKEN BOT Ở ĐÂY
+ "YOUTUBE_API_KEY": "",//ĐIỀN KEY YT API Ở ĐÂY
   "MAX_PLAYLIST_SIZE": 1000,
   "PREFIX": "c!",
   "LOCALE": "en",
