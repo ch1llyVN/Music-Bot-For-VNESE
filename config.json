@@ -1,0 +1,11 @@
+{
+ "TOKEN": "OTMxMTQ3MjEyOTQ2MjkyNzc2.YeAMaw.6iN8D9vet9U1Szkd2ORZgAp_pEw",
+ "YOUTUBE_API_KEY": "AIzaSyBP78sOMZTQuwSe5okT6Wc67GG_OqLUiZ8",
+  "MAX_PLAYLIST_SIZE": 1000,
+  "PREFIX": "c!",
+  "LOCALE": "en",
+  "support_server": "https://discord.gg/tdeCNFcuVx",
+  "PRUNING": false,
+  "STAY_TIME": 30,
+  "DEFAULT_VOLUME": 100
+}

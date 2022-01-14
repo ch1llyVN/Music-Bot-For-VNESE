@@ -1,0 +1,165 @@
+{
+  "clip": {
+    "description": "Plays a clip sound",
+    "usagesReply": "Usage: /clip <name>",
+    "errorQueue": "Can't play clip because there is an active queue.",
+    "errorNotChannel": "You need to join a voice channel first!"
+  },
+  "clips": {
+    "description": "List all clips"
+  },
+  "help": {
+    "description": "Hiện Danh Sách Lệnh",
+    "embedTitle": "**Tất Cả Lệnh Của Tôi Đây**",
+    "embedDescription": "Mời Tôi Vào Đi UwU"
+  },
+  "invite": {
+    "description": "Gửi Link Mời"
+  },
+  "loop": {
+    "description": "Tắt Mở Lặp",
+    "errorNotQueue": "Không Có Bài Hát Hay Hàng Chờ",
+    "result": "Chế Độ Lặp Đang {loop}"
+  },
+  "lyrics": {
+    "description": "Lấy Lời Bài Hát Hiện Đang Chơi",
+    "errorNotQueue": "Hiện Tại Đang Không Có Bài Hát",
+    "lyricsNotFound": "Không Có Lời Của {title}.",
+    "embedTitle": "{title} - Lyrics"
+  },
+  "move": {
+    "description": "Di Chuyển Vị Trí Bài Hát Trong Hàng Chờ",
+    "errorNotQueue": "Hiện Tại Không Có Hàng Chờ Hay Bài Hát",
+    "usagesReply": "Usage: {prefix}move <Queue Number>",
+    "result": "<@{author}> 🚚 Chuyển **{title}** tới vị trí {index} trong hàng chờ"
+  },
+  "nowplaying": {
+    "description": "Hiện Bài Hát Đang Chơi",
+    "errorNotQueue": "Hiện Tại Đang Không Có Bài Hát",
+    "embedTitle": "Đang Chơi",
+    "live": " ◉ LIVE",
+    "timeRemaining": "Thời Gian Còn Lại: {time}"
+  },
+  "pause": {
+    "description": "Tạm Dừng Bài Hát Đang Chơi",
+    "errorNotQueue": "Hiện Tại Đang Không Có Bài Hát",
+    "result": "<@{author}> ⏸ Dừng Hàng Chời"
+  },
+  "ping": {
+    "description": "Hiện Ping Của Bạn",
+    "result": "📈 Ping Của Bạn Là: {ping} ms"
+  },
+  "play": {
+    "description": "Chơi 1 Bài Hát Trên Youtube",
+    "errorNotChannel": "Bạn Phải Vào Voice Trước Đã",
+    "errorNotInSameChannel": "Bạn Phải Vào Chung Voice Với Bot Chứ {user}",
+    "usageReply": "Usage: {prefix}play <YouTube URL | Têm Video | Soundcloud URL>",
+    "missingPermissionConnect": "Không Thể Vào, Không Có Quyền",
+    "missingPermissionSpeak": "Tôi Không Thể Hát, Hãy Đảm Bảo Tôi Có Đủ Quyền",
+    "queueAdded": "✅ **{title}** Đã Được Thêm Bởi <@{author}>",
+    "cantJoinChannel": "Không Thể Vào Voice: {error}",
+    "queueEnded": "❌ Hết Hàng Chờ.",
+    "queueError": "Lỗi: {error}",
+    "startedPlaying": "🎶 Bắt Đầu Chơi: **{title}**",
+    "skipSong": "<@{author}> ⏩ Bỏ Qua Bài Hát",
+    "pauseSong": "<@{author}> ⏸ Dừng Bài Hát.",
+    "resumeSong": "<@{author}> ▶ Tiếp Tục Bài Hát",
+    "unmutedSong": "<@{author}> 🔊 Mở Tiếng Bài Hát",
+    "mutedSong": "<@{author}> 🔇 Tắt Tiếng Bài Hát",
+    "decreasedVolume": "<@{author}> 🔉 giảm âm lượng, âm lượng hiện tại là {volume}%",
+    "increasedVolume": "<@{author}> 🔊 tăng âm lượng, âm lượng hiện tại là {volume}%",
+    "loopSong": "<@{author}> chế độ lặp được {loop}",
+    "stopSong": "<@{author}> ⏹ đã dừng nhạc",
+    "leaveChannel": "Thoát Kênh Voice..."
+  },
+  "playlist": {
+    "description": "Chơi 1 Danh Sách Phát Trên Youtube",
+    "usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL | Tên Playlist >",
+    "errorNotChannel": "Bạn Phải Vào Voice Trước Đã",
+    "errorNotInSameChannel": "Bạn Phải Vào Chung Voice Với Bot Chứ {user}",
+    "missingPermissionConnect": "Không Thể Vào, Không Có Quyền",
+    "missingPermissionSpeak": "Tôi Không Thể Hát, Hãy Đảm Bảo Tôi Có Đủ Quyền",
+    "errorNotFoundPlaylist": "Không thể tìm Playlist :(",
+    "fetchingPlaylist": "⌛ Đang Chạt playlist...",
+    "playlistCharLimit": "\nPlaylist có số kí tự quá dài...",
+    "startedPlaylist": "<@{author}> bắt đầu một playlist",
+    "cantJoinChannel": "Không Thể Vào Voice: {error}"
+  },
+  "pruning": {
+    "description": "Toggle pruning of bot messages",
+    "errorWritingFile": "There was an error writing to the file.",
+    "result": "Message pruning is {result}"
+  },
+  "queue": {
+    "description": "Hiện Danh Sách Bài Hát Trong Hàng Chờ",
+    "missingPermissionMessage": "Thiếu Quyền Reactions và Quản Lý Tin Nhắn",
+    "errorNotQueue": "❌ **Không Có Gì Để Chơi**",
+    "currentPage": "Trang - ",
+    "embedTitle": "Song Queue\n",
+    "embedCurrentSong": "**Hiện Tại - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "Bỏ bài hát khỏi hàng chờ",
+    "errorNotQueue": "Không Có Hàng Chờ",
+    "usageReply": "Usage: {prefix}remove <Queue Number>",
+    "result": "<@{author}> ❌ bỏ **{title}** khỏi hàng chờ"
+  },
+  "resume": {
+    "description": "Tiếp tục bài hát",
+    "errorNotQueue": "Không Có Bài Hát Hay Hàng Chờ",
+    "resultNotPlaying": "<@{author}> ▶ tiếp tục bài hát!",
+    "errorPlaying": "Bài Hát Hiện Không Dừng"
+  },
+  "search": {
+    "description": "Tìm Bài Hát",
+    "usageReply": "Usage: {prefix}{name} <Video Name>",
+    "errorAlreadyCollector": "A message collector is already active in this channel.",
+    "errorNotChannel": "Bạn Phải Vào Voice Trước Đã",
+    "resultEmbedTtile": "**Reply với số bài bạn muốn chơi**",
+    "resultEmbedDesc": "Results for: {search}"
+  },
+  "shuffle": {
+    "description": "Chế Độ Đảo",
+    "errorNotQueue": "Không Có Hàng Chờ",
+    "result": "<@{author}> 🔀 Đảo hàng chờ"
+  },
+  "skip": {
+    "description": "Bỏ Qua Bài Hát",
+    "errorNotQueue": "Không Có Bài Hát Hay Hàng Chờ Nên Tôi Không Thể Bỏ Qua Được ",
+    "result": "<@{author}> ⏭ Bỏ Qua Bài Hát"
+  },
+  "skipto": {
+    "description": "Nhảy Tới Bài Hát",
+    "usageReply": "Usage: {prefix}{name} <Queue Number>",
+    "errorNotQueue": "Không Có Hàng Chờ",
+    "errorNotValid": "Hàng Chờ Chỉ Có {length} Bài Hát!",
+    "result": "<@{author}> ⏭ Nhảy Tới Bài {arg}"
+  },
+  "stop": {
+    "description": "Dừng Nhạc",
+    "errorNotQueue": "Không Có Hàng Chờ",
+    "result": "<@{author}> ⏹ Dừng Hàng Chờ"
+  },
+  "uptime": {
+    "description": "Kiểm Tra Thời Gian Họat Động",
+    "result": "Uptime: `{days} Ngày(s),{hours} Giờ, {minutes} Phút, {seconds} Giây`"
+  },
+  "volume": {
+    "description": "Chỉnh Âm Lượng",
+    "errorNotQueue": "Hiện Tại Không Có Hàng Chờ Hay Bài Hát",
+    "errorNotChannel": "Bạn Phải Vào Voice Trước Đã",
+    "currentVolume": "🔊 Âm Lượng Hiện Tại: **{volume}%**",
+    "errorNotNumber": "Xin Sử Dụng Sổ Để Chỉnh Âm Lượng",
+    "errorNotValid": "Chọn Số Từ 0 - 100.",
+    "result": "Âm Lượng Đã Được Chỉnh Thành: **{arg}%**"
+  },
+  "common": {
+    "on": "**on**",
+    "off": "**off**",
+    "enabled": "**enabled**",
+    "disabled": "**disabled**",
+    "errorNotChannel": "Bạn Phải Vào Voice Trước Đã",
+    "cooldownMessage": "Xin Chờ Thêm {time} Giây(s) Trước Khi Dùng Lệnh `{name}`",
+    "errorCommend": "Lệnh Không Thể Sử Dụng"
+  }
+}
